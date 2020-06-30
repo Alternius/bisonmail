@@ -1,0 +1,12 @@
+name: BisonMail
+main: com.alternius.bison_mail.BisonMail
+author: Alternius
+version: 0.1
+api-version: 1.12.2
+commands:
+    envelope:
+      description: Gives or modifies an envelope
+      usage: "Usage: /envelope [spawn/recipient/name] [UUID/name]"
+    mailbox:
+      description: Turns player head into a mailbox
+      usage: "Usage: /mailbox"
